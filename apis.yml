@@ -1,7 +1,26 @@
 aid: rwazi
 name: Rwazi
-description: Rwazi is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rwazi is a hyper-local market intelligence and Decision AI platform whose
+  product, Sena, combines a company's internal business data with real-world consumer
+  signals from 190+ countries — who is buying what, for how much, from where, when, and
+  why — using consumer activity data, computer vision, zero-party data collection, and
+  250+ third-party integrations to inform marketing, sales, product, strategy, and
+  growth decisions. Rwazi is a Techstars-backed company added to the API Evangelist
+  network. This profile has been enriched from public web sources; at the time of
+  enrichment Rwazi published no self-service developer API, OpenAPI, or public API
+  reference — onboarding is enterprise, demo-driven, and account-based.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://rwazi.com/favicon.svg
 url: https://raw.githubusercontent.com/api-evangelist/rwazi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Market Intelligence
+- Consumer Data
+- Decision AI
+- Analytics
+- Emerging Markets
+- Data Provider
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rwazi-domain-security.yml
 - type: Website
   url: https://rwazi.com/
+- type: About
+  url: https://rwazi.com/about
+- type: Blog
+  url: https://rwazi.com/blog
+- type: SignUp
+  url: https://app.rwazi.com/sign-up
+- type: Support
+  url: https://rwazi.com/contact
+- type: PrivacyPolicy
+  url: https://rwazi.com/privacy-policy
+- type: TermsOfService
+  url: https://rwazi.com/general-terms
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
