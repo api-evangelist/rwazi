@@ -9,6 +9,17 @@ description: Rwazi is a hyper-local market intelligence and Decision AI platform
   network. This profile has been enriched from public web sources; at the time of
   enrichment Rwazi published no self-service developer API, OpenAPI, or public API
   reference — onboarding is enterprise, demo-driven, and account-based.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
